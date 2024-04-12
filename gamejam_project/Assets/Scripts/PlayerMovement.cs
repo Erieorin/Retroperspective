@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float moveSpeed;
     public Rigidbody2D rb;
     public bool grounded;
+    public static bool _isFacingRight = false;
+
 
     void Update()
     {
@@ -28,6 +30,23 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void Turn()
+    {
+        if (_isFacingRight)
+        {
+            Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
+            //transform.position = Quaternion.Euler(rotator);
+            _isFacingRight = false;
+        }
+
+        else
+        {
+            Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
+            //transform.position = Quaternion.Euler(rotator);
+            _isFacingRight = true;
+        }
+    }
+
     private void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, moveSpeed);
@@ -41,5 +60,7 @@ public class PlayerMovement : MonoBehaviour
             grounded = true;
         }
     }
+
+
 
 }
