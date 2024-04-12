@@ -80,6 +80,7 @@
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSpline.cs" />
     <Compile Include="Assets/LeanTween/Testing/Testing240.cs" />
     <Compile Include="Assets/LeanTween/Testing/Scripts/LeanPool.cs" />
+    <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/LeanTween/Testing/TestingSequencer.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/TestingZLegacy.cs" />
     <Compile Include="Assets/LeanTween/Testing/PerformanceTests.cs" />
