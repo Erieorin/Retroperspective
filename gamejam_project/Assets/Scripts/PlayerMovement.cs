@@ -1,3 +1,4 @@
+using HeneGames.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,12 +9,16 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public bool grounded;
     public static bool _isFacingRight = false;
+    public Animator animator;
+    Vector2 movement;
 
 
     void Update()
     {
-        float hor = Input.GetAxisRaw("Horizontal"); //получение направления
-        rb.velocity = new Vector2(hor * moveSpeed, rb.velocity.y); //движение
+        float hor = Input.GetAxisRaw("Horizontal");
+        movement.x = Input.GetAxisRaw("Horizontal"); // получение направления
+        rb.velocity = new Vector2(hor * moveSpeed, rb.velocity.y); // движение
+        animator.SetFloat("speed", movement.sqrMagnitude);
 
         // поворачивание игрока 
         if (hor > 0.01f)
