@@ -1219,6 +1219,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1294,7 +1295,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.039508, y: -15.592701, z: -10.337114}
+  m_LocalPosition: {x: -5.049035, y: -15.592701, z: -10.337114}
   m_LocalScale: {x: 1.4914653, y: 1.4914653, z: 1.4914653}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1348,6 +1349,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RainSlider: {fileID: 441914412}
   RainScript: {fileID: 1048086664}
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08cbe8724820a432d8261e7fb1e4f1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choiceNumber: 4
+  nextScene: Ending
 --- !u!1 &583148947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,9 +1605,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.032265127, y: 0.16132021}
   m_SpriteTilingProperty:
-    border: {x: 14.150001, y: 0.3625, z: 7.6, w: 4.1375003}
+    border: {x: 11.91579, y: 0.30526316, z: 6.4, w: 3.4842107}
     pivot: {x: 0.635722, y: 0.3576427}
-    oldSize: {x: 24, y: 13.5}
+    oldSize: {x: 20.210526, y: 11.368421}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

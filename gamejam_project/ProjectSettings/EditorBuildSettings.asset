@@ -5,10 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: eeeb3e0e13d6847258b8d3180e3e558c
   - enabled: 1
+    path: Assets/Scenes/TrainLevel.unity
+    guid: 9af678407ed7fe8459ef467b785390f3
+  - enabled: 1
+    path: Assets/Scenes/Bar.unity
+    guid: 4a048c984ec30704dac2c0a1127a918f
+  - enabled: 1
+    path: Assets/Scenes/UniversityTalk.unity
+    guid: eecfe679aa5cd42319ce0e1a14ad1b5f
+  - enabled: 1
+    path: Assets/Scenes/BeforeHome.unity
+    guid: 85db92e79bb36074eb511ca4e1efea63
+  - enabled: 1
     path: Assets/Scenes/Shooting.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 91624b25e591e4375be0e96554b14695
   m_configObjects: {}

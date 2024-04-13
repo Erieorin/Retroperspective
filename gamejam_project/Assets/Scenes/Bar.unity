@@ -981,7 +981,7 @@ Transform:
   m_GameObject: {fileID: 717924463}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.54282, y: -10.214481, z: -10.252283}
+  m_LocalPosition: {x: -38.3846, y: -10.214491, z: -10.252283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1194,9 +1194,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.031083465, y: 0.053101778}
   m_SpriteTilingProperty:
-    border: {x: 14.150001, y: 0.3625, z: 7.6, w: 4.1375003}
+    border: {x: 11.91579, y: 0.30526316, z: 6.4, w: 3.4842107}
     pivot: {x: 0.635722, y: 0.3576427}
-    oldSize: {x: 24, y: 13.5}
+    oldSize: {x: 20.210526, y: 11.368421}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1800,6 +1800,67 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 393521910}
+--- !u!1001 &1331264067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2967648637740207544, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 8300000, guid: 1ec4a3d9ad96d4fcbb4809eca6cff890, type: 3}
+    - target: {fileID: 4650093496383959434, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1149.7484
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 775.6513
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.6097765
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022924543599802831, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 073dc9026ecda4a2ab0782c900c7c008, type: 3}
 --- !u!1 &1344793838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2059,6 +2120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 2613160871807745533, guid: cc5653e328fe7b24dab095c76503e262, type: 3}
   obj: {fileID: 1576944404}
+  allowed: 0
 --- !u!58 &1576944406
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3160,6 +3222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 2613160871807745533, guid: cc5653e328fe7b24dab095c76503e262, type: 3}
   obj: {fileID: 2126756939}
+  allowed: 0
 --- !u!58 &2126756941
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3351,3 +3414,4 @@ SceneRoots:
   - {fileID: 1072387732}
   - {fileID: 1576944408}
   - {fileID: 2126756943}
+  - {fileID: 1331264067}
