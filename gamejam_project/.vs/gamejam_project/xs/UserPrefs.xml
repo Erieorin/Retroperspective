@@ -1,23 +1,19 @@
 ﻿<Properties StartupConfiguration="{E9EC03DD-70A4-87C5-E549-F1854825506D}|">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f2ca291b-9376-4a3f-81a4-2f5549ee7d11" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AudioManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/end.cs">
     <Files>
       <File FileName="Assets/Scripts/MainMenu.cs" />
-      <File FileName="Assets/Scripts/AudioManager.cs" Line="32" Column="26" />
-      <File FileName="Assets/Scripts/VolumeSettings.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AudioManager.cs" />
+      <File FileName="Assets/Scripts/VolumeSettings.cs" />
       <File FileName="Assets/Scripts/Inventory.cs" />
       <File FileName="Assets/Scripts/Clues.cs" />
       <File FileName="Assets/Scripts/SwitchToVN.cs" />
       <File FileName="Assets/Scripts/ChangingScenes.cs" />
       <File FileName="Assets/Scripts/StaticData.cs" />
-      <File FileName="Assets/Scripts/EndingDecision.cs" />
-      <File FileName="Assets/Scripts/GetChoiceValue.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EndingDecision.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GetChoiceValue.cs" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
+      <File FileName="Assets/Scripts/Timmer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/end.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +21,7 @@
           <Node name="gamejam_project">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="AudioManager.cs" selected="True" />
+                <Node name="end.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -33,4 +29,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3591fcb5-2276-41ea-899b-4a1e720f6bc8" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
