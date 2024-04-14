@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
 {
     public float thrust;
     public Rigidbody2D rb;
-    private float TimeToLive = 1;
+    private float TimeToLive = 2;
 
 
     private void Start()
@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     {
         rb.AddForce(transform.right * thrust, ForceMode2D.Impulse);
 
-        if(TimeToLive > 0)
+        if (TimeToLive > 0)
         {
             TimeToLive -= Time.deltaTime;
         }
@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             Timmer.count++;
         }

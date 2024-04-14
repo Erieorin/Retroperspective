@@ -12,8 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/TrainLevel.unity
     guid: 9af678407ed7fe8459ef467b785390f3
   - enabled: 1
+    path: Assets/Scenes/endings/Badd.unity
+    guid: 4c40eaff4e14fc8488bccd2ad1d25f11
+  - enabled: 1
     path: Assets/Scenes/Bar.unity
     guid: 4a048c984ec30704dac2c0a1127a918f
+  - enabled: 1
+    path: Assets/Scenes/endings/Good.unity
+    guid: e9305c1c074ee544d9c5e588eb7f4929
+  - enabled: 1
+    path: Assets/Scenes/endings/SuperBad.unity
+    guid: 907733370738d114f90969623709eace
   - enabled: 1
     path: Assets/Scenes/scenesz/UniversityTalk.unity
     guid: eecfe679aa5cd42319ce0e1a14ad1b5f
@@ -47,4 +56,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bandit.unity
     guid: 5613e3154b765451f9a2060eb7f94ed1
+  - enabled: 1
+    path: Assets/Scenes/Gopniki.unity
+    guid: 3adad74dd8ac9c74196c92790ca867a2
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: d9f7d7ce6d09dc9479437b145a7beeb5
   m_configObjects: {}

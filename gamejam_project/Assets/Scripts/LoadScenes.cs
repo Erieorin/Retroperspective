@@ -33,11 +33,13 @@ public class LoadScenes : MonoBehaviour
 
     public void OnClickGood_choice1()
     {
+        SceneManager.LoadScene("UniversityTalk");
         StaticData.choice1 = 1;
     }
 
     public void OnClickBad_choice1()
     {
+        SceneManager.LoadScene("UniversityTalk");
         StaticData.choice1 = 0;
     }
 }

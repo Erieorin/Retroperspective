@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EndingDecision : MonoBehaviour
 {
-    private static int endingNumber;
+    public static int endingNumber;
 
     public void endingDesicion()
     {
