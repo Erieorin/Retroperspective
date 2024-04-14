@@ -16,11 +16,12 @@ public class AterAnoth : MonoBehaviour
     private bool isFollowing = true;
     public Animator animator;
     Vector2 vector2;
-
+    
     private void Start()
     {
         vector2 = gameObject.transform.position;
     }
+    
     void Update()
     {
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
@@ -34,23 +35,32 @@ public class AterAnoth : MonoBehaviour
 
         if (isFollowing)
         {
+            if (transform.position.x > target.position.x)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+
+            if (transform.position.x < target.position.x)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+
             transform.position = Vector2.MoveTowards(transform.position, target.position, followSpeed * Time.deltaTime);
             OnBeforeTransformChanged();
-
         }
-
+        
         else
         {
             animator.SetFloat("speed", 0);
         }
-
+        
     }
 
     private void OnBeforeTransformChanged()
     {
         if (gameObject.transform.hasChanged && isFollowing)
         {
-           
+
             animator.SetFloat("speed", vector2.sqrMagnitude);
             gameObject.transform.hasChanged = false;
 
@@ -65,5 +75,4 @@ public class AterAnoth : MonoBehaviour
             //}
         }
     }
-
 }

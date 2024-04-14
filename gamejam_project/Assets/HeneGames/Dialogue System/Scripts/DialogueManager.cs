@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace HeneGames.DialogueSystem
 {
@@ -10,7 +11,12 @@ namespace HeneGames.DialogueSystem
         private int currentSentence;
         private float coolDownTimer;
         private bool dialogueIsOn;
+        public GameObject mommy;
         private DialogueTrigger dialogueTrigger;
+        public GameObject Buttons;
+        public GameObject t1;
+        public GameObject t2;
+
 
         public enum TriggerState
         {
@@ -200,8 +206,13 @@ namespace HeneGames.DialogueSystem
             //Add one to sentence index
             currentSentence++;
 
+            if (currentSentence == 4 & SceneManager.GetActiveScene().name == "DimaHome")
+            {
+                mommy.SetActive(true);
+            }
+
             //Next sentence event
-            if (dialogueTrigger != null)
+                if (dialogueTrigger != null)
             {
                 dialogueTrigger.nextSentenceDialogueEvent.Invoke();
             }
@@ -211,11 +222,32 @@ namespace HeneGames.DialogueSystem
             //If last sentence stop dialogue and return
             if (currentSentence > sentences.Count - 1)
             {
+                
                 StopDialogue();
 
                 lastSentence = true;
 
-                return;
+                if ((SceneManager.GetActiveScene().name == "BeforeHome") & (lastSentence == true))
+                {
+                    SceneManager.LoadScene("DimaHome");
+                }
+                if ((SceneManager.GetActiveScene().name == "DimaHome") & (lastSentence == true))
+                {
+                    SceneManager.LoadScene("DimaFa");
+                }
+                if ((SceneManager.GetActiveScene().name == "DimaFa") & (lastSentence == true))
+                {
+                    Buttons.SetActive(true);
+                    t1.SetActive(true);
+                    t2.SetActive(true);
+
+                }
+                else
+                {
+                    return;
+                }
+
+                
             }
 
             //If not last sentence continue...
@@ -253,6 +285,7 @@ namespace HeneGames.DialogueSystem
             //Remove trigger refence
             dialogueIsOn = false;
             dialogueTrigger = null;
+
         }
 
         private void PlaySound(AudioClip _audioClip)
