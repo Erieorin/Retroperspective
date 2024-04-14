@@ -10,6 +10,8 @@ namespace HeneGames.DialogueSystem
     {
         #region Singleton
 
+        public GameObject v1;
+        public GameObject v2;
         public static DialogueUI instance { get; private set; }
 
         private void Awake()
@@ -17,7 +19,9 @@ namespace HeneGames.DialogueSystem
             if (instance == null)
             {
                 instance = this;
-                DontDestroyOnLoad(gameObject);
+                //DontDestroyOnLoad(gameObject);
+                //Destroy(v1);
+                //Destroy(v2);
             }
             else
             {

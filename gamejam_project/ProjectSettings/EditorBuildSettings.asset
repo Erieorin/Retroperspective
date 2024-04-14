@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DimaBadFa.unity
     guid: 6a80a978ab8269a4f9e9c2b279617d76
+  - enabled: 1
+    path: Assets/Scenes/DimaHome.unity
+    guid: 7fd2fe14bfebda34d87e985260909d4c
   m_configObjects: {}

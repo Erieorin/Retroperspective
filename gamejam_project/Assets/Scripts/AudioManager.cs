@@ -12,6 +12,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip music;
     public AudioClip rainSFX;
     public AudioClip peopleSFX;
+    public AudioClip calmSFX;
+    public AudioClip tensionSFX;
+    public AudioClip melanhSFX;
 
     private void Start()
     {
@@ -23,12 +26,34 @@ public class AudioManager : MonoBehaviour
     public void PlayRain()
     {
         sfxSource.clip = rainSFX;
+        sfxSource.loop = true;
         sfxSource.Play();
     }
 
     public void PlayPeople()
     {
         sfxSource.clip = peopleSFX;
+        sfxSource.Play();
+    }
+
+    public void PlayCalm()
+    {
+        sfxSource.clip = calmSFX;
+        sfxSource.loop = true;
+        sfxSource.Play();
+    }
+
+    public void PlayTension()
+    {
+        sfxSource.clip = tensionSFX;
+        sfxSource.loop = true;
+        sfxSource.Play();
+    }
+
+    public void PlayMel()
+    {
+        sfxSource.clip = melanhSFX;
+        sfxSource.loop = true;
         sfxSource.Play();
     }
 }

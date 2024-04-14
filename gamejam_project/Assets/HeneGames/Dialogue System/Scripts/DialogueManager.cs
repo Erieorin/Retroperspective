@@ -242,6 +242,12 @@ namespace HeneGames.DialogueSystem
                     t2.SetActive(true);
 
                 }
+
+                if (((SceneManager.GetActiveScene().name == "DimaGoodFa") || (SceneManager.GetActiveScene().name == "DimaBadFa")) & (lastSentence == true))
+                {
+                    SceneManager.LoadScene("Shooting");
+                }
+
                 else
                 {
                     return;

@@ -27,8 +27,11 @@ public class TimerController : MonoBehaviour
         }
         else
         {
+            Destroy(v1);
+            Destroy(timer);
             SceneManager.LoadScene("DimaBadFa");
-            v1.SetActive(false);
+            //KeepChoiceValueAndLoadNextScene(0);
+
             //выбор пойдет в другую сторону, типо что не успел дима отреагировать
             //если нажать кнопку успеть, то все ок и пойдет по нужной ветке или сменится сцена
         }

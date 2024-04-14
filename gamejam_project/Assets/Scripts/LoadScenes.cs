@@ -9,10 +9,12 @@ public class LoadScenes : MonoBehaviour
     {
 
         SceneManager.LoadScene("DimaGoodFa");
+        //KeepChoiceValueAndLoadNextScene(1);
     }
 
     public void OnClickBad()
     {
         SceneManager.LoadScene("DimaBadFa");
+        //KeepChoiceValueAndLoadNextScene(0);
     }
 }
