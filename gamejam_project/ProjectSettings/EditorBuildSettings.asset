@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Bar.unity
     guid: 4a048c984ec30704dac2c0a1127a918f
   - enabled: 1
-    path: Assets/Scenes/UniversityTalk.unity
+    path: Assets/Scenes/scenesz/UniversityTalk.unity
     guid: eecfe679aa5cd42319ce0e1a14ad1b5f
   - enabled: 1
-    path: Assets/Scenes/BeforeHome.unity
+    path: Assets/Scenes/scenesks/BeforeHome.unity
     guid: 85db92e79bb36074eb511ca4e1efea63
   - enabled: 1
     path: Assets/Scenes/Shooting.unity
@@ -27,15 +27,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Ending.unity
     guid: 91624b25e591e4375be0e96554b14695
   - enabled: 1
-    path: Assets/Scenes/DimaFa.unity
+    path: Assets/Scenes/scenesks/DimaFa.unity
     guid: 381a994bffda53a469f06f520ea4393b
   - enabled: 1
-    path: Assets/Scenes/DimaGoodFa.unity
+    path: Assets/Scenes/scenesks/DimaGoodFa.unity
     guid: 1503ee9c285739f4ba8aabcb573f53d7
   - enabled: 1
-    path: Assets/Scenes/DimaBadFa.unity
+    path: Assets/Scenes/scenesks/DimaBadFa.unity
     guid: 6a80a978ab8269a4f9e9c2b279617d76
   - enabled: 1
-    path: Assets/Scenes/DimaHome.unity
+    path: Assets/Scenes/scenesks/DimaHome.unity
     guid: 7fd2fe14bfebda34d87e985260909d4c
+  - enabled: 1
+    path: Assets/Scenes/scenesz/BadChoiceUni.unity
+    guid: 6aa7bf40fa8f74f828b12468b90142b5
+  - enabled: 1
+    path: Assets/Scenes/scenesz/GoodChoiceUni.unity
+    guid: f596ef186add2419dbbbc5b2eb70f045
+  - enabled: 1
+    path: Assets/Scenes/bandit.unity
+    guid: 5613e3154b765451f9a2060eb7f94ed1
   m_configObjects: {}

@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{E9EC03DD-70A4-87C5-E549-F1854825506D}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GetChoiceValue.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f2ca291b-9376-4a3f-81a4-2f5549ee7d11" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AudioManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="9" Column="28" />
-      <File FileName="Assets/Scripts/AudioManager.cs" Line="14" Column="32" />
-      <File FileName="Assets/Scripts/VolumeSettings.cs" Line="19" Column="10" />
-      <File FileName="Assets/Scripts/Inventory.cs" Line="18" Column="14" />
-      <File FileName="Assets/Scripts/Clues.cs" Line="15" Column="27" />
-      <File FileName="Assets/Scripts/SwitchToVN.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scripts/ChangingScenes.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GetValue.cs" Line="15" Column="20" />
-      <File FileName="Assets/Scripts/StaticData.cs" Line="10" Column="31" />
-      <File FileName="Assets/Scripts/EndingDecision.cs" Line="24" Column="6" />
+      <File FileName="Assets/Scripts/MainMenu.cs" />
+      <File FileName="Assets/Scripts/AudioManager.cs" Line="32" Column="26" />
+      <File FileName="Assets/Scripts/VolumeSettings.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Inventory.cs" />
+      <File FileName="Assets/Scripts/Clues.cs" />
+      <File FileName="Assets/Scripts/SwitchToVN.cs" />
+      <File FileName="Assets/Scripts/ChangingScenes.cs" />
+      <File FileName="Assets/Scripts/StaticData.cs" />
+      <File FileName="Assets/Scripts/EndingDecision.cs" />
+      <File FileName="Assets/Scripts/GetChoiceValue.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +25,7 @@
           <Node name="gamejam_project">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GetChoiceValue.cs" selected="True" />
+                <Node name="AudioManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -29,8 +33,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="99ce4409-6dab-41ce-b73a-346929927c44" />
 </Properties>

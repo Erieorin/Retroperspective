@@ -243,9 +243,19 @@ namespace HeneGames.DialogueSystem
 
                 }
 
-                if (((SceneManager.GetActiveScene().name == "DimaGoodFa") || (SceneManager.GetActiveScene().name == "DimaBadFa")) & (lastSentence == true))
+                if (((SceneManager.GetActiveScene().name == "GoodChoiceUni") || (SceneManager.GetActiveScene().name == "BadChoiceUni")) & (lastSentence == true))
+                {
+                    SceneManager.LoadScene("BeforeHome");
+                }
+
+                if ((SceneManager.GetActiveScene().name == "bandit") & (lastSentence == true))
                 {
                     SceneManager.LoadScene("Shooting");
+                }
+
+                if (((SceneManager.GetActiveScene().name == "DimaGoodFa") || (SceneManager.GetActiveScene().name == "DimaBadFa")) & (lastSentence == true))
+                {
+                    SceneManager.LoadScene("bandit");
                 }
 
                 else

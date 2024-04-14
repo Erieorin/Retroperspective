@@ -8,7 +8,7 @@ public class GetChoiceValue : MonoBehaviour
     [SerializeField] int choiceNumber;
     [SerializeField] string nextScene;
 
-    public void KeepChoiceValueAndLoadNextScene(int choiceDigit)
+    public void KeepChoiceValue(int choiceDigit)
     {
         switch (choiceNumber)
         {
@@ -25,6 +25,5 @@ public class GetChoiceValue : MonoBehaviour
                 StaticData.finalchoice = choiceDigit;
                 break;
         }
-        SceneManager.LoadScene(nextScene);
     }
 }

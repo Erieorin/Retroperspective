@@ -14,17 +14,9 @@ public class Activities : MonoBehaviour
     public GameObject t2;
     public Image imageComp;
     public Sprite newImage;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject buttonChoice2;
+    public GameObject buttonChoice2_2;
 
     public void SashaApp()
     {
@@ -71,6 +63,12 @@ public class Activities : MonoBehaviour
         Buttons.SetActive(true);
         t1.SetActive(true);
         t2.SetActive(true);
+    }
+
+    public void ButtonChoice2()
+    {
+        buttonChoice2.SetActive(true);
+        buttonChoice2_2.SetActive(true);
     }
 
     public void ChangeImage()
