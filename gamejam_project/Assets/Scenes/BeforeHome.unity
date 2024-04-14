@@ -1690,7 +1690,7 @@ Transform:
   m_GameObject: {fileID: 845940365}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.419865, y: -11.521271, z: -10.252283}
+  m_LocalPosition: {x: -39.54282, y: -11.521271, z: -10.252283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2210,31 +2210,31 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 4752645aa0d4f144783c729ff9e40e5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 029bce74ea4b65340b392fb0797dcc90, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 4752645aa0d4f144783c729ff9e40e5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 029bce74ea4b65340b392fb0797dcc90, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[2].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
+      objectReference: {fileID: 11400000, guid: 971c441a017788544a69b294932d3702, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[3].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
+      objectReference: {fileID: 11400000, guid: 971c441a017788544a69b294932d3702, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[4].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 0779ef71b4ee2b94791b1a73fb6de447, type: 2}
+      objectReference: {fileID: 11400000, guid: 971c441a017788544a69b294932d3702, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[5].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 3e5e644d8d5725941b79d3277f39cbc1, type: 2}
+      objectReference: {fileID: 11400000, guid: 047247ed44401b8468dce36ae7d9939b, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[6].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 4752645aa0d4f144783c729ff9e40e5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 971c441a017788544a69b294932d3702, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3976,5 +3976,5 @@ SceneRoots:
   - {fileID: 66815603}
   - {fileID: 1185618570}
   - {fileID: 919284832}
-  - {fileID: 1565669206}
   - {fileID: 818792331}
+  - {fileID: 1565669206}
