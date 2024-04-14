@@ -12,15 +12,17 @@ public class end : MonoBehaviour
     {
         if(playerinrange)
         {
-            Debug.Log(EndingDecision.endingNumber.ToString());
-            if (EndingDecision.endingNumber == 1)
+            int choiceSum = StaticData.choice1 + StaticData.choice2 + StaticData.choice3 + StaticData.finalchoice;
+            if (choiceSum >= 2)
             {
-                SceneManager.LoadScene("Good");
+                SceneManager.LoadScene("Good"); // good ending
             }
-            if (EndingDecision.endingNumber == 2)
+            else if (2 > choiceSum && choiceSum >= 0)
             {
-                SceneManager.LoadScene("Badd");
+                SceneManager.LoadScene("Badd"); // bad ending
             }
+            Debug.Log(StaticData.choice3.ToString());
+            
         }
     }
 

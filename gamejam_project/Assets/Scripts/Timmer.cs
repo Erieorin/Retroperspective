@@ -18,5 +18,9 @@ public class Timmer : MonoBehaviour
         int seconds = Mathf.FloorToInt(Timer % 60F);
         int milliseconds = Mathf.FloorToInt((Timer * 100F) % 100F);
         TimerText.text = minutes.ToString("00") + ":" + seconds.ToString("00") + ":" + milliseconds.ToString("00");
+        if(Timer < 0)
+        {
+            SceneManager.LoadScene(scene);
+        }
     }
 }

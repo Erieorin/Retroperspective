@@ -1618,7 +1618,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0428505, y: -17.9827, z: -10.337114}
+  m_LocalPosition: {x: -5.0466347, y: -17.9827, z: -10.337114}
   m_LocalScale: {x: 1.4914653, y: 1.4914653, z: 1.4914653}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2007,8 +2007,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9298de7c4ffce434a9e3a5b284db61b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 
-  Timer: 3
+  scene: SuperBad
+  Timer: 30
   TimerText: {fileID: 1193641582}
 --- !u!1 &832016033
 GameObject:
